@@ -13,3 +13,6 @@ In February 2020, the Cloud Microservices Market Research Report predicted that 
 Monolithic vs. Microservices Architecture: An Introduction
 
 A  monolithic architecture  is a unified model for designing a software solution. All components of software here are interconnected and interdependent.
+Monolithic software only supports one programming language, it is not possible to implement one single module of it in other programming language.
+ In such a tightly coupled architecture, each component and its related components must be functional in order for the code to be executed or compiled successfully.
+
