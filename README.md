@@ -24,3 +24,4 @@ Herein, a software application is built with an independent group of components 
  
 In such a loosely coupled architecture, a component is independent of the other one, can be written in different programming languages,  use different data storages, and serves only one specific function.
 
+
