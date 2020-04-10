@@ -25,3 +25,16 @@ Herein, a software application is built with an independent group of components 
 In such a loosely coupled architecture, a component is independent of the other one, can be written in different programming languages,  use different data storages, and serves only one specific function.
 
 
+# Monolithic vs. Microservices Architecture: Differences
+
+## Fault Isolation
+
+Since all services in a microservice architecture are independent of each other, any halt in a process will keep the rest of the processes unaffected.	
+
+For example, a memory leak in one service will only affect that single service. A change to a small part of the application only requires rebuilding and redeploying only one or a small number of services.
+
+On the other hand, any misbehaving component in a monolithic architecture will bring the entire application down (since all services are interconnected and interdependent).
+
+For example, In the monolithic approach, an application supporting three functions would have to be scaled in its entirety even if only one of these functions had a resource constraint.
+
+With microservices, only the microservice supporting the function with resource constraints needs to be scaled out, thus providing resource and cost optimization benefits.
