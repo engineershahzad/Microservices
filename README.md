@@ -65,3 +65,27 @@ Since microservices are implemented and deployed independently of each other, i.
 Since the services are independent of each other, continuous deployment of new features and application scaling can be done with ease.
 If a service goes down, it won’t affect the functionality of the entire application
 
+## Integration of differnt and legacy systems:
+
+Microservices is considered as a viable mean for modernizing existing monolithic software application.
+
+There are experience reports of several companies who have successfully replaced  their existing software by microservices, or are in the process of doing so using  an incremental approach.
+
+## Distributed development:
+
+It parallelizes development by enabling small autonomous teams to develop, deploy and scale their respective services independently.
+
+Microservice-based architectures facilitate continuous integration, continuous delivery and deployment.
+ 
+
+## Criticism and Concerns
+
+Inter-service calls over a network have a higher cost in terms of network latency and message processing time than in-process calls within a monolithic service process.
+
+Development and support of many services is more challenging if they are built with different tools and technologies. This is especially a problem if engineers move between projects frequently.
+
+The protocol typically used with microservices (HTTP) was designed for public-facing services, and as such is unsuitable for working internal microservices that often must be reliable.
+
+While not specific to microservices, the decomposition methodology often uses functional decomposition, which does not handle changes in the requirements while still adds the complexity of services.
+
+The very concept of microservice is misleading, since there are only services. There is no sound definition of when a service starts or stops being a microservice.
