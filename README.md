@@ -1,4 +1,4 @@
-# *** Microservices ***
+# Microservices 
 
 In 1972, David Parnas  introduced concept of Modularization  on the 
 principle of decomposing a large, complex software system into “Loosely 
@@ -6,3 +6,10 @@ coupled, highly cohesive”
 
 Microservices Architecure  is a software development technique  which arranges an application as a collection of loosely coupled,  highly cohesive services.
  The term, “loosely coupled” means the dependency between modules should be very low and “highly cohesive” means that one module should focus on single or similar functionality.
+
+It  is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms,  often an HTTP resource API.
+In February 2020, the Cloud Microservices Market Research Report predicted that the global microservice architecture market size
+ will increase at a CAGR of 21.37% from 2019 to 2026 and reach  $3.1 billion by 2026.
+
+# Monolithic vs. Microservices Architecture: An Introduction
+
