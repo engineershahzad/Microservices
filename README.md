@@ -54,3 +54,14 @@ In a monolithic architecture, the development team is forced to stick to a singl
 For example, if a framework that your application uses become obsolete with time, migrating to a newer, better framework can be challenging.
 
 The development team may have to rewrite the entire application in a new language or on a different framework, which involves risks			 and is time-consuming as well.  
+
+## Modularity
+
+This makes the application easier to understand, develop, test, and become more resilient to architecture erosion.				     This benefit is often argued in comparison to the complexity of monolithic architectures.
+## Scalability
+
+Since microservices are implemented and deployed independently of each other, i.e. they run within independent processes,they can be monitored and scaled independently.
+
+Since the services are independent of each other, continuous deployment of new features and application scaling can be done with ease.
+If a service goes down, it won’t affect the functionality of the entire application
+
