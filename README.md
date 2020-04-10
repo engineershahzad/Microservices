@@ -38,3 +38,15 @@ On the other hand, any misbehaving component in a monolithic architecture will b
 For example, In the monolithic approach, an application supporting three functions would have to be scaled in its entirety even if only one of these functions had a resource constraint.
 
 With microservices, only the microservice supporting the function with resource constraints needs to be scaled out, thus providing resource and cost optimization benefits.
+
+
+# Benefits
+
+## Technology Commitment
+
+With a microservices architecture, developers have the advantage of using different technologies (languages, frameworks, and OS) to build an application.
+This eliminates dependency and long-term commitment with a single technology stack.
+
+Whenever a new service is built or an existing service is updated, a new, better technology stack can be adopted.					     
+This also eliminates the dependency of the development team on a particular resource for building or updating a service
+
