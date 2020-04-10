@@ -50,3 +50,7 @@ This eliminates dependency and long-term commitment with a single technology sta
 Whenever a new service is built or an existing service is updated, a new, better technology stack can be adopted.					     
 This also eliminates the dependency of the development team on a particular resource for building or updating a service
 
+In a monolithic architecture, the development team is forced to stick to a single technology, which has its own limitations.
+For example, if a framework that your application uses become obsolete with time, migrating to a newer, better framework can be challenging.
+
+The development team may have to rewrite the entire application in a new language or on a different framework, which involves risks			 and is time-consuming as well.  
